@@ -1,6 +1,8 @@
 # CVPRderain
 ## Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond
-[paper](https://arxiv.org/abs/2203.16931)
-[code](https://github.com/yuyi-sd/Robust_Rain_Removal)
+
+[[paper]](https://arxiv.org/abs/2203.16931)
+[[code]](https://github.com/yuyi-sd/Robust_Rain_Removal)
+
 除雨的目的是去除图像/视频中的雨痕，减少雨水造成的破坏性影响。它不仅能提高图像/视频的可见度，还能使许多计算机视觉算法正常运行。本文首次尝试对基于深度学习的除雨方法的鲁棒性进行全面研究，以对抗对抗性攻击。我们的研究表明，当图像/视频高度退化时，除雨方法更容易受到对抗性攻击，因为小的失真/扰动变得不那么明显或可检测。在本文中，我们首先从人类感知和机器分析任务的角度，对各种方法在不同级别的攻击和各种损失/目标产生的扰动进行了全面的经验评估。对现有方法中的关键模块进行了系统的评估，即它们对对抗性攻击的鲁棒性。根据我们的分析结果，我们通过整合这些有效的模块，构建了一个更稳健的减损方法。最后，我们研究了针对减损问题的各种类型的对抗性攻击及其对人类和机器视觉任务的影响，包括：1）雨区攻击，只在雨区添加扰动，使被攻击的雨图像中的扰动不那么明显；2）物体敏感攻击，只在给定物体附近区域添加扰动。
 
